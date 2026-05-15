@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Objects</h2>
+<p id="content"></p>
+<script>
+
+const person = {
+    name: "kevin",
+    age: "20",
+    talk: function () {content.innerText = "function is invoked"}
+}
+
+
+
+
+const content = document.getElementById("content")
+content.innerText = person.talk
+</script>
+</body>
+</html>
